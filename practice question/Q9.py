@@ -1,7 +1,8 @@
-a=int(input())
-b=0
-while a>0:
-    b=b+a
-    a-=1
-print(b)
+a=input()
+b=list(a)
+c=0
+for i in range(len(b)):
+    c+=int(b[i])
+print(c)
+
     
